@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"roomInit","path":"rooms/roomInit/roomInit.yy",},"order":1,},
+    {"id":{"name":"oGoal","path":"objects/oGoal/oGoal.yy",},"order":4,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":5,},
+    {"id":{"name":"oSystem","path":"objects/oSystem/oSystem.yy",},"order":3,},
+    {"id":{"name":"roomMain","path":"rooms/roomMain/roomMain.yy",},"order":1,},
+    {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},"order":2,},
+    {"id":{"name":"roomInit","path":"rooms/roomInit/roomInit.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -21,6 +26,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"roomInit","path":"rooms/roomInit/roomInit.yy",},},
+    {"roomId":{"name":"roomMain","path":"rooms/roomMain/roomMain.yy",},},
   ],
   "Folders": [],
   "AudioGroups": [
